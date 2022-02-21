@@ -1,0 +1,59 @@
+.header,
+.contacto,
+.nosotros,
+.index,
+.galeria,
+.productos {
+      background-size: 100% auto;
+      background-color: #616060cc;
+}
+
+.header {
+      background-color: #616060cc;
+      color: black;
+      background-image: url(../images/camara222.jpg);
+      background-repeat: no-repeat;
+      background-position: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15vh;
+      padding: 0 20px;
+      z-index: 100;
+      background-size: auto 100%;
+}
+.navbar {
+      position: absolute;
+      z-index: 100;
+}
+
+.navbar img {
+      width: 30px;
+}
+
+.contacto {
+      background-image: url(../images/contacto.jpg);
+      color: white;
+}
+.nosotros {
+      background-image: url(../images/nosotros.jpg);
+      color: white;
+}
+.index {
+      background-image: url(../images/index2.jpg);
+      color: black;
+}
+
+.footer {
+      width: 100%;
+      background-color: #f5f5f5;
+      color: black;
+      bottom: 0;
+      position: sticky;
+      z-index: 2;
+      margin-top: 100px;
+}
+.footer img {
+      width: 4vh;
+      height: auto;
+}
